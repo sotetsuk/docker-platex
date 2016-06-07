@@ -1,5 +1,10 @@
 # docker-platex
 
+Forked from [thii/docker-platex](https://github.com/thii/docker-platex).
+
+## Change history
+- 2015.06.08: ```texlive``` => ```texlive-science```
+
 A docker container for pLaTeX, which can be used to build Japanese pLaTeX file.
 
 ## Setup
