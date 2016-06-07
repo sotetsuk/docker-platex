@@ -9,16 +9,16 @@ A docker container for pLaTeX, which can be used to build Japanese pLaTeX file.
 
 ## Setup
 
-Pull image ([from Docker Hub](https://registry.hub.docker.com/u/thii/platex)):
+Pull image ([from Docker Hub](https://hub.docker.com/r/sotetsuk/platex/)):
 
 ```bash
-docker pull thii/platex
+docker pull sotetsuk/platex
 ```
 
 or build it yourself:
 
 ```bash
-docker build -t thii/platex .
+docker build -t sotetsuk/platex .
 
 ```
 
@@ -26,7 +26,7 @@ Usage
 -----
 
 ```bash
-docker run --rm -v `pwd`:/latex thii/platex build example.tex
+docker run --rm -v `pwd`:/latex sotetsuk/platex build example.tex
 ```
 
 ## License
