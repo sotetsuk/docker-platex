@@ -3,7 +3,8 @@
 Forked from [thii/docker-platex](https://github.com/thii/docker-platex).
 
 ## Change history
-- 2015.06.08: ```texlive``` => ```texlive-science```
+- 2016.06.08: ```texlive``` => ```texlive-science```
+- 2016.09.16: add ```sudo apt-get install curl jq```
 
 A docker container for pLaTeX, which can be used to build Japanese pLaTeX file.
 

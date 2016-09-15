@@ -6,7 +6,7 @@ ENV DEBIAN_FRONTEND noninteractive
 COPY build pdfplatex /usr/bin/
 
 RUN apt-get -q update && \
-	apt-get -qy install texlive-science texlive-lang-cjk dvipsk-ja texlive-fonts-recommended texlive-fonts-extra && \
+	apt-get -qy install texlive-science texlive-lang-cjk dvipsk-ja texlive-fonts-recommended texlive-fonts-extra curl jq && \
 	rm -rf /var/lib/apt/lists/*
 
 VOLUME /latex
